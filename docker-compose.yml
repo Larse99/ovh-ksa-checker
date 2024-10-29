@@ -1,0 +1,7 @@
+---
+services:
+  ksa-checker:
+    image: ovhscraper
+    container_name: ksa-checker
+    env_file: "docker.env"
+    restart: unless-stopped

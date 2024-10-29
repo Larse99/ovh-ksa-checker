@@ -1,0 +1,3 @@
+ovh
+requests
+load_dotenv
