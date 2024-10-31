@@ -24,7 +24,7 @@ It's possible to deploy it using a docker run command, but using a docker-compos
 ---
 services:
   ksa-checker:
-    image:  ovhscraper
+    image:  ksa_checker
     container_name:  ksa-checker
     env_file:  "docker.env"
     restart:  unless-stopped
