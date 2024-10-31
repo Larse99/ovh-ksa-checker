@@ -23,11 +23,11 @@ It's possible to deploy it using a docker run command, but using a docker-compos
 ```yaml
 ---
 services:
-ksa-checker:
-image:  ovhscraper
-container_name:  ksa-checker
-env_file:  "docker.env"
-restart:  unless-stopped
+  ksa-checker:
+    image:  ovhscraper
+    container_name:  ksa-checker
+    env_file:  "docker.env"
+    restart:  unless-stopped
 ```
 
 #### Creating the env
